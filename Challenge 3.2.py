@@ -1,4 +1,4 @@
-#Sort_students takes a list of student objects and sort them based on cgpa
+#Sort_students function takes a list of student objects and sort them based on cgpa
 
 class Student:
   def __init__(self,name,roll_number,cgpa):
@@ -13,7 +13,7 @@ def sort_students(student_list):
 
 students =[
   Student("Anu","1234",7.9),
-  Student("Abi","1232",8.7),
+  Student("Abi","1233",8.7),
   Student("Reva","1235",8.1),
   Student("Raga","1234",8.9)
 ]
