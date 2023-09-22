@@ -1,4 +1,4 @@
-#LinearSeaarchProduct takes list of products and return a list of indices of targeted product
+#LinearSeaarchProduct function takes list of products and return a list of indices of targeted product
 
 def linearSearchProduct(productList, targetProduct):
   indices = []
@@ -8,7 +8,7 @@ def linearSearchProduct(productList, targetProduct):
   return indices
 
 
-products = ["apple", "mongo", "orange", "apple", "pineapple", "apple"]
+products = ["apple", "mango", "orange", "apple", "pineapple", "apple"]
 target = "apple"
 result = linearSearchProduct(products, target)
 print(result)
