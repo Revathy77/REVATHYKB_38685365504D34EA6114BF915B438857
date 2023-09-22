@@ -14,8 +14,8 @@ def sort_students(student_list):
 students =[
   Student("Anu","1234",7.9),
   Student("Abi","1233",8.7),
-  Student("Reva","1235",8.1),
-  Student("Raga","1234",8.9)
+  Student("Reva","1236",8.1),
+  Student("Raga","1235",8.9)
 ]
 
 sorted_students = sort_students(students)
